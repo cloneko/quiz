@@ -5,9 +5,10 @@ module Quiz
 		@@username = ''
 
 		@@result = []
-		def initialize(result = nil,name = '')
-			@@result = param
+		def initialize(name = '',result = nil,time = nil)
+			@@result = result
 			@@username = name
+      @@time = time
 			total 
 		end 
 
